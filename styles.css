@@ -1,14 +1,14 @@
 .content {
 width: 700px;
-margin: 50px;
+margin: 40px;
 padding: 20px;
 font-family: "Lucida Console", "Courier New", monospace, "Arial";
-background:#F7B492;
+background:#FAD2BE;
 }
 
 
 .navbar {
-  background-color: #FAD2BE;
+  background-color: #F7B492;
   overflow: hidden;
   font-family: "Lucida Console", "Courier New", monospace, "Arial";
 }
