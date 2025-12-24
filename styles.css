@@ -1,6 +1,7 @@
 .content {
 width: 700px;
-margin: auto;
+margin: 50px;
+padding: 20px;
 font-family: "Lucida Console", "Courier New", monospace, "Arial";
 background:#F7B492;
 }
@@ -9,6 +10,7 @@ background:#F7B492;
 .navbar {
   background-color: #FAD2BE;
   overflow: hidden;
+  font-family: "Lucida Console", "Courier New", monospace, "Arial";
 }
 
 .navbar a {
