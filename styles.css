@@ -2,4 +2,31 @@
 width: 700px;
 margin: auto;
 font-family: "Lucida Console", "Courier New", monospace, "Arial";
+background:#F7B492;
+}
+
+
+.navbar {
+  background-color: #FAD2BE;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #0A0A0A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
