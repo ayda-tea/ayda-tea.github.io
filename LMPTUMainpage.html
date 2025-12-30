@@ -1,15 +1,16 @@
 ---
 layout: default
+title: LMPTU
 ---
 
-
-<head>
-    <title>LMPTU Mainpage</title>
-</head> 
-
-<div class="content">
 <h1>Let Me Pretend To Understand</h1>
 
 <p> LMPTU is a series of review/analysis articles I will be writing in an attempt to brute force myself into media literacy. If you'd like to read me descend into madness as I simultaneously under and overanalyze a piece of art, please click one of the following links!</p>
-</div>
 
+ <ul>
+
+  {% for post in site.posts %}
+  <li> <a href="{{ post.url }}">{{ post.title }}</a> </li>
+  {% endfor %}
+
+</ul> 
