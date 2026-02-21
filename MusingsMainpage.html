@@ -1,0 +1,16 @@
+---
+layout: default
+title: My Musings
+---
+
+<h1>My Musings</h1>
+
+<p> This is a page for my more brief and unfocused thoughts about things floating around in my mind </p>
+
+ <ul>
+
+  {% for item in site.articles %}
+  <li> <a href="{{ item.url }}">{{ item.title }}</a> </li>
+  {% endfor %}
+
+</ul> 
