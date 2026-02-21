@@ -1,1 +1,5 @@
 permalink: :title
+
+collections:
+  articles:
+    output: true
