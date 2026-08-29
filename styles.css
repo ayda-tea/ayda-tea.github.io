@@ -3,7 +3,7 @@ width: 700px;
 margin: 40px;
 padding: 20px;
 font-family: "Lucida Console", "Courier New", monospace, "Arial";
-background:#FAD2BE;
+background:#F1A269;
 }
 
 body {
@@ -14,19 +14,19 @@ body {
 .footer {
 padding: 20px;
 font-family: "Lucida Console", "Courier New", monospace, "Arial";
-background:#F7B492;
+background:#663A4D;
 color: #0A0909;
 }
 
 .navbar {
-  background-color: #F7B492;
+  background-color: #9A6976;
   overflow: hidden;
   font-family: "Lucida Console", "Courier New", monospace, "Arial";
 }
 
 .navbar a {
   float: left;
-  color: #0A0A0A;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -40,6 +40,6 @@ color: #0A0909;
 
 
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #663A4D;
   color: white;
 }
