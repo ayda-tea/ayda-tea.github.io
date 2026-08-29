@@ -15,7 +15,7 @@ body {
 padding: 20px;
 font-family: "Lucida Console", "Courier New", monospace, "Arial";
 background:#663A4D;
-color: #0A0909;
+color: white;
 }
 
 .navbar {
@@ -40,7 +40,7 @@ color: #0A0909;
 
 
 .navbar a.active {
-  background-color: #663A4D;
+  background-color: #415B57;
   color: white;
 }
 
